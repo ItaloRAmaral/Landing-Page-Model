@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQ.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header class="header-container">
+        <div id="logo-container">
+            <h1>Logo</h1>
+        </div>
+        <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-expanded="false">
+            <span class="hamburguer"></span>
+        </button>
+        <nav class="nav-bar" role="menu">
+            <div class="menu">
+                <a href="#intro">Intro</a>
+            </div>
+            <div class="menu">
+                <a href="#top-3-jobs">Top 3</a>
+            </div>
+            <div class="menu">
+                <a href="#gallery">Gallery</a>
+            </div>
+            <div class="menu">
+                <a href="#myWork">My Work</a>
+            </div>
+            <div class="menu">
+                <a href="#contact">Contact Me</a>
+            </div>
+        </nav>
+    </header>
+    <main class="main-container">
+        <section id="intro" class="first-box">
+            <div id="first-box-content">
+                <h1>January brings us firefox 85</h1>
+                <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are
+                    bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the
+                    complete removal of Flash support from firefox.</p>
+            </div>
+            <div id="img-first-box">
+                <img src="./image/javascript-not-optimized.svg" />
+            </div>
+        </section>
+        <section id="top-3-jobs" class="second-box">
+            <article id="second-box-content">
+                <h1>Top 3 Jobs</h1>
+                <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage
+                    and some surprises at the machine’s performance. This post details some background information on
+                    the experience of porting Firefox to run natively on these CPUs.</p>
+                <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that
+                    needed to know about the new architecture, before moving on to the concept of Universal Binaries.
+                </p>
+                <p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big
+                    Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and
+                    an overview of various other improvements that are in the pipeline.</p>
+            </article>
+        </section>
+        <section class="third-box">
+            <div id="topjobs-box">
+                <h1>Top 3 Jobs</h1>
+                <p> Here are some recent work.</p>
+            </div>
+            <div class="articles">
+                <div class="grid-article">
+                    <article id="article-one">
+                        <h3>First</h3>
+                        <p>This button would add a box to the row of key content boxes below the intro text. This should
+                            put the box there regardless of where the user is currently writing.</p>
+                    </article>
+                    <article id="article-two">
+                        <h3>Another Site</h3>
+                        <p>I'd suggest having a popup that asks where in the row to insert the box (at the beginning or
+                            end), what title to give the box, what text to put in the box, and where the box should link
+                            to. The entire box should serve as a link to the destination page.</p>
+                    </article>
+                    <article id="article-three">
+                        <h3>Third One</h3>
+                        <p>You can also include a type attribute containing the MIME type of the resource, so a browser
+                            can quickly see what resources are on offer, and ignore ones that it doesn’t support</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="fourth-box">
+            <div id="gallery-box">
+                <h1>Gallery</h1>
+                <p> Here are some of my pics.</p>
+            </div>
+            <div id="images">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/345x345?r=1" alt="Random Image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/345x345?1=2" alt="Random Image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/345x345?3=3" alt="Random Image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/345x345?5=4" alt="Random Image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/345x345?7=5" alt="Random Image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/345x345?8=6" alt="Random Image">
+                </div>
+            </div>
+        </section>
+        <section id="myWork" class="third-box">
+            <div id="topjobs-box">
+                <h1>Recent Jobs</h1>
+            </div>
+            <div class="articles">
+                <div class="grid-article">
+                    <article id="article-one">
+                        <h3>A good one</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, provident nemo quaerat
+                            praesentium nulla, laboriosam id voluptates quia excepturi rem minus nesciunt quasi officiis
+                            eligendi quas eaque ducimus facere in?</p>
+                    </article>
+                    <article id="article-two">
+                        <h3>Great Job</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo suscipit laudantium,
+                            eveniet magni ipsum voluptatem molestiae quia. Adipisci, omnis. Architecto error iure
+                            laboriosam totam expedita impedit magnam at illo neque.</p>
+                    </article>
+                    <article id="article-three">
+                        <h3>The Best</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, explicabo voluptatem.
+                            Assumenda culpa dolores repellat ex sapiente, commodi in exercitationem rerum modi
+                            praesentium vitae et iure ab perspiciatis, laboriosam architecto!</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="sixth-box">
+            <article id="pricing-article">
+                <h1>Pricing</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, voluptas sapiente enim, quis
+                    repellat nihil hic velit, repellendus praesentium molestiae officia! A similique ullam aliquam
+                    eveniet. Dignissimos delectus iste nam.</p>
+            </article>
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing Table</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>Content 4</td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+            </div>
+        </section>
+        <section id="contact" class="seventh-box">
+            <div class="contact-us">
+                <div>
+                    <h1>Contact Us</h1>
+                    <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are
+                        bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the
+                        complete removal of Flash support from Firefox.</p>
+                </div>
+                <div>
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div id="form">
+                <h5>Contact Form</h5>
+                <form>
+                    <div class="first-contact-form">
+                        <input type="text" name="name" id="name" placeholder="Name">
+                        <input type="text" name="last_name" id="last_name" placeholder="Last Name">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                    </div>
+                    <div class="your-message">
+                        <textarea id="message" name="message" placeholder="Your Message To Us" rows="auto" cols="auto"
+                            maxlength="700"></textarea>
+                    </div>
+                    <button type="submit" id="btn-sbmt">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Italo Amaral</p>
+        <p>All rigths reserved.</p>
+    </footer>
+    <a class="top" href="#intro">/\</a>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
