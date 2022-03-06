@@ -1,4 +1,4 @@
-## Pixel Art Project 
+## Landing Page Model
 ###### By _[Italo Amaral](https://www.linkedin.com/in/italo-rockenbach-594082132/)_
 
 ##
